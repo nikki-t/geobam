@@ -2,7 +2,7 @@ Bootstrap: docker
 From: ubuntu:20.04
 
 %files
-    script_files/run_geobamdata.R /opt/confluence/
+    run_geobamdata.R /opt/confluence/
 
 %post
     apt update
